@@ -15,6 +15,7 @@ for barcode in barcodes:
     points = [(point.x, point.y) for point in points]
     cv2.polylines(image, [np.array(points, dtype=np.int32)], True, (0, 255, 0), 2)
 
+
     # Annotate the decoded data beside the bounding box
     x, y = points[0]  # Take the first point of the bounding box
     cv2.putText(image, data, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)  # Green text

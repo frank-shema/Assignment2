@@ -1,6 +1,7 @@
 import zxing
 import cv2
 import numpy as np
+
 # Initialize the ZXing reader
 reader = zxing.BarCodeReader()
 # Load the MaxiCode image

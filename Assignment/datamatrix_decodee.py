@@ -2,6 +2,7 @@ import pyzxing
 
 reader = pyzxing.BarCodeReader()
 
+
 barcode = reader.decode('../data/IMG_2019.jpg')
 
 if barcode:

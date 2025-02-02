@@ -2,6 +2,7 @@ import cv2
 from pyzbar.pyzbar import decode
 import numpy as np
 import zxing
+
 # Initialize the ZXing reader
 reader = zxing.BarCodeReader()
 # Load the Aztec code image
