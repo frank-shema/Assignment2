@@ -11,6 +11,7 @@ image = cv2.imread(image_path)
 # Decode the Aztec code using ZXing
 decoded = reader.decode(image_path)
 # Check if the Aztec code was successfully decoded
+#this is embedded systems with some remarks of AI 
 if decoded:
     print(f"Decoded Data: {decoded.parsed}")
     print(f"Barcode Format: {decoded.format}")
