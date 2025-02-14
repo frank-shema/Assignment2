@@ -22,7 +22,6 @@ for barcode in barcodes:
 # Display the image with the barcode highlighted and annotated
 cv2.imshow("Barcode with Annotation", image)
 
-# Wait for a key press
 key = cv2.waitKey(0)
 
 # Save the annotated image when a key is pressed

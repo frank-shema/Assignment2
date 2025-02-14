@@ -1,4 +1,4 @@
-import zxing
+import zxing2
 import cv2
 import numpy as np
 
